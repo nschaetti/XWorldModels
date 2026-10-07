@@ -3,6 +3,17 @@ import torch
 import torch.nn as nn
 
 
+class Block(nn.Module):
+
+    def __init__(
+            self,
+    ):
+        super().__init__()
+    # end __init__
+
+# end class Block
+
+
 class VisionTransformer(nn.Module):
     """
     A Vision Transformer
